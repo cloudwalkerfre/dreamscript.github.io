@@ -1,13 +1,12 @@
-### A movie script writing tool (MAC only & ENGLISH only )
+##### Project site: https://github.com/cloudwalkerfre/DreamScript
+
 ---
 
+##### A movie script writing tool (MAC only & ENGLISH only )
 
-It's usable now, but still under development... no `electron` yet   
+---
 
-    npm i && npm start  
-
-open localhost:3000   
-
+It's usable now, but still under development...
 
 ---
 Demo:
@@ -29,24 +28,7 @@ Basic use: pretty much like Final Draft, short-cut:
 
 Print: command+p, you can print your script as PDF (It's chrome's build-in function, I only CSS-optimized it as: US Letter)
 
-
-
 ---
-
-
-*TODO:*
-- Maybe a little more prettier
-- ~~Add saving~~
-- ~~Add paragraph collections~~
-- ~~Add script chart~~
-- ~~Maybe use div-contentEditable instead of semantic-ui-Textarea, so it's pure react app with no third-party package~~
-- Add some test
-- Add output file, if I were to do that, maybe write a .fdx-json convertor first
-- Put it in electron, yet, a single-page app is nice still
-
----
-
-
 
 *TRY TO:*  
 - As simple as possible
@@ -59,14 +41,6 @@ Print: command+p, you can print your script as PDF (It's chrome's build-in funct
 ~~`electron`~~ `REACT` `mobx` `nedb`
 
 ---
-
-**key component**:  
-- **dashBoard**: dash board of all your script
-- **script**: make a standard movie script looking
-- **paragraph**: ~~General`~~, `Scene Heading`, `Action`, `Character`, `Parenthetical`, `Dialogue`, `Transition`, `Shot`, ~~`Cast List`~~
-- **title page**
-- ~~**tool sider**: open, save, new, convert ...~~
-- ~~**tool script**: collection of `Scene`, `Character`, `Shot`~~ ...
 
 **mobx script**:  
 
